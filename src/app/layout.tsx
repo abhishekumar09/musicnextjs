@@ -19,9 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;              // children we set datatypes   reactnode type data accept liike example string type
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>
-      <Navbar />
+      <div className="relative w-full flex items-center justify-center ">
+        <Navbar />
+      </div>
       {children}
          </body>                 
     </html>
