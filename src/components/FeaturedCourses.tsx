@@ -1,4 +1,4 @@
-'use client'
+'use client'               // use for using hooks of react in nextjs its necessary to write
 import Link from "next/link"
 import courseData from "../data/music_courses.json"
 import { BackgroundGradient } from "./ui/background-gradient"
